@@ -1,0 +1,17 @@
+# Private cryptographic keys
+*.pem
+*.key
+*_private*
+*private*key*
+id_rsa
+id_ed25519
+
+# Certificate bundles containing private keys
+*.p12
+*.pfx
+*.jks
+
+# Environment and secret files
+.env
+.env.*
+secrets/
